@@ -1,0 +1,88 @@
+html{box-sizing: border-box;
+height: 100%;
+font-family: "Arial";
+font-size: 14px;
+height: 100%;
+}
+
+*{box-sizing: inherit}
+
+body {align-items: center;
+    height: 100%;
+    display: flex;
+    background-size: 100%;
+    background-image: url(cof.jpg);
+    background-repeat: no-repeat}
+
+.header {
+    position: relative;
+    justify-content: flex-start;
+}
+.flex-container{
+    justify-content: center;
+    align-content: center;
+    flex-basis:auto;
+    padding: 10px 20px;
+    height: 350px;
+    width: 400px;
+    background-color: hsla(58, 56%, 91%, 0.8);
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 120px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.user-pass {
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.user-pass input{
+    width: 270px;
+    opacity: 0.8
+}
+
+.login
+{
+    position: relative;
+    left:150px;
+}
+
+.forgot-pass a{text-decoration: none;
+    color:red;
+    position: relative;
+    left: 130px;
+}
+
+.forgot-pass a:hover{
+    text-decoration: underline;
+    background-color:red;
+    color: black;
+}
+
+.Create-account a{
+    text-decoration: none;
+    color: red;
+    position: relative;
+    left: 15px;
+    font-weight: normal
+}
+
+
+.Create-account a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: red;
+    position: relative;
+    left: 15px;
+}
+
+.Create-account {
+    font-weight: 600
+}
